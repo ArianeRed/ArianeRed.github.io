@@ -1,0 +1,166 @@
+body{
+    background-size: cover;
+    scroll-behavior: smooth;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0px;
+    padding: 0px;
+    scrollbar-color: red;
+    animation-duration: 4s;
+    background-color: #1c1c20;
+    color: rgb(224, 76, 76);
+    overflow: hidden;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+@font-face {
+    font-family: 'Persona5';
+    src: url(Persona5MenuFontPrototype-Regular.otf);
+}
+div.top{
+    width: 100%;
+    height: 20%;
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 3px dotted red;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    border-radius: 1cm;
+    background-image: url(calling.png);
+    background-size: cover;
+    background-position: center;
+}
+.flex-container{
+    display: flex;
+    height: 80%;
+    background-image:    url(background.png);
+    background-size:     cover;
+    background-repeat:   no-repeat;
+}
+#flex-container div{
+    padding-left: 100px;
+
+}   
+div.sidebar{
+    padding-right: 10%;
+    width: 5%;
+    border-right:dashed 3px whitesmoke ;
+    border-radius: 1em;
+    overflow: hidden;
+    font-family: 'Persona5';
+    animation-name: interestingicon;
+    animation-iteration-count: infinite;
+}
+div.inside{
+    background-size: contain;
+    background-repeat: space;
+    font-size: 50px;
+    overflow: scroll;
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0px;
+}
+h1.title{
+    position:absolute;
+    font-size: 6dvi;
+    font-family: 'Persona5';
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: 30dvi;
+    margin-bottom: 2%;
+    animation: 4s ease;
+    animation-name: interestingtext;
+    animation-iteration-count: infinite;
+}
+
+a:link {
+    color:white; 
+}
+
+h1.sdtext{
+    font-size: 2.3dvi;
+    padding: 20px;
+    padding-right: 13.2dvi;
+    margin-top: 10;
+    margin-bottom: 10;
+    border-bottom: #ffffff 2px solid;
+    font-style: italic;
+    border-radius: 0.5em;
+    animation: 3s ease-in-out infinite;
+    animation-name: interestingsdtext;
+}
+p.para{
+    overflow: visible;
+    margin: 5;
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+img.icon{
+    height: 150px;
+    width: 150px;
+    margin-top: 1cm;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    animation: 2s ease-in-out infinite;
+    animation-name: interestingicon;
+}
+img.tyt{
+    position:fixed;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding-right: 18;
+    width:10%;
+}
+@keyframes rainbow{
+    from {
+        background-color: #2d2d38;
+    }
+    50% {
+        background-color: #020202;
+    }
+    100% {
+        background-color: #2d2d38;
+    }   
+}
+@keyframes interestingtext{
+    from{
+        font-size: 6dvi;
+        rotate: 2deg;
+    }
+    50%{
+        font-size: 6.3dvi;
+        rotate: -2deg;
+    }
+    100%{
+        font-size: 6dvi;
+        rotate: 2deg;
+    }
+}
+@keyframes interestingsdtext{
+    from{
+        font-size: 2.2dvi;
+        rotate: 4deg;
+    }
+    50%{
+        font-size: 2.4dvi;
+        rotate: -3deg;
+    }
+    100%{
+        font-size: 2.2dvi;
+        rotate: 4deg;
+    }
+}   
+@keyframes interestingicon{
+    from{
+        rotate: -10deg;
+    }
+    50%{
+        rotate: 10deg;
+    }
+    100%{
+        rotate: -10deg;
+    }
+}   
