@@ -163,3 +163,14 @@ img.tyt{
         rotate: -10deg;
     }
 }   
+@keyframes interestingvideo{
+    from{
+        rotate: 1deg;
+    }
+    50%{
+        rotate: -1deg;
+    }
+    100%{
+        rotate: 1deg;
+    }
+}   
