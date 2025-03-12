@@ -7,7 +7,7 @@ body{
     padding: 0px;
     scrollbar-color: red;
     animation-duration: 4s;
-    background-color: #1c1c20;
+    background-color: #0f0f11;
     color: rgb(224, 76, 76);
     overflow: hidden;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -99,7 +99,6 @@ p.para{
 
 img.icon{
     height: 150px;
-    width: 150px;
     margin-top: 1cm;
     margin-left: 50px;
     margin-bottom: 30px;
